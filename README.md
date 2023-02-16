@@ -22,7 +22,7 @@ With distance travelled per second in meters, we will get the speed of the vehic
 How to run project?
 Follow steps:
 
-Clone repo : git clone https://github.com/kraten/vehicle-speed-check
+Clone repo : git clone https://github.com/ALSRKAL/vehicle-speed-check
 
 cd (change directory) into vehicle-speed-check cd vehicle-speed-check
 
