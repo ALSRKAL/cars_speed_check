@@ -1,4 +1,8 @@
-cmake==3.12.0
-dlib==19.16.0
-numpy==1.15.3
-opencv-python==3.4.3.18
+# Runtime dependencies.
+#
+# Tip: on Linux, pip's default torch wheel bundles CUDA (~2 GB extra).
+# For a CPU-only setup install torch first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.24
+opencv-python>=4.8
+ultralytics>=8.2

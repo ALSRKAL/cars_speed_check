@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# YOLO weights download on first run - never commit them
+*.pt
+*.onnx
+
+# Local outputs
+outputs/
+snapshot_*.png
+*.avi
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local tool state
+.mimosa/
